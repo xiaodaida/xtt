@@ -55,19 +55,19 @@ public class AllConfig {
 
 
     //额外类型消息
-    public static final FunctionConfig open_xinGuan_info = new FunctionConfig(true,"#FF7F00"); //是否开启用户城市新冠信息查询
-    public static final FunctionConfig open_history_today = new FunctionConfig(false,"#FF7F00"); //是否开启历史上的今天
+    public static final FunctionConfig open_xinGuan_info = new FunctionConfig(false,"#FF7F00"); //是否开启用户城市新冠信息查询
+    public static final FunctionConfig open_history_today = new FunctionConfig(true,"#FF7F00"); //是否开启历史上的今天
     public static final FunctionConfig open_qinghua = new FunctionConfig(true,"#FF7F00"); //是否开启情话一句
     public static final FunctionConfig open_dongman = new FunctionConfig(false,"#FF7F00"); //是否开启动漫台词(暂时无法使用了)
-    public static final FunctionConfig open_tiangou = new FunctionConfig(true,"#FF7F00"); //是否开启舔狗日记
-    public static final FunctionConfig open_world_read = new FunctionConfig(true,"#FF7F00"); //是否开启世界新闻
+    public static final FunctionConfig open_tiangou = new FunctionConfig(false,"#FF7F00"); //是否开启舔狗日记
+    public static final FunctionConfig open_world_read = new FunctionConfig(false,"#FF7F00"); //是否开启世界新闻
     public static final FunctionConfig open_random_read = new FunctionConfig(true,"#FF7F00"); //是否开启随机短句
-    public static final FunctionConfig open_wozairenjian = new FunctionConfig(true,"#FF7F00"); //是否开启散文集我在人间凑日子
+    public static final FunctionConfig open_wozairenjian = new FunctionConfig(false,"#FF7F00"); //是否开启散文集我在人间凑日子
     public static final FunctionConfig open_poetry = new FunctionConfig(false,"#FF7F00"); //是否开启随机诗句(暂时无法使用了)
     public static final FunctionConfig open_english = new FunctionConfig(false,"#FF7F00"); //是否开启每日英语(暂时无法使用了)
     public static final FunctionConfig open_miyu = new FunctionConfig(false,"#FF7F00"); //是否开启谜语(暂时无法使用了)
     public static final FunctionConfig open_horoscope= new FunctionConfig(false,"#FF7F00"); //是否开启星座解析(只计算第一个birthDay的星座)
-    public static final FunctionConfig random_module = new FunctionConfig(true,"#FF7F00"); //随机一个开启了的额外类型消息(开启以后，只会推送随机的)
+    public static final FunctionConfig random_module = new FunctionConfig(false,"#FF7F00"); //随机一个开启了的额外类型消息(开启以后，只会推送随机的)
 
     private static void init(){
         //如果要多个人的话，就复制这个一遍，然后填写里面的内容。这里默认两个人,大伙应该是两个人吧（笑）
@@ -80,8 +80,8 @@ public class AllConfig {
                 "oGLUX6Of3rtjy8oFATCL98D-KfWc", //扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "GihdxqHiT1HFd3oUtt5-UYNImMJCeVbEfCFSDRnAIBY", //要给这个人发送的模板ID
                 "小公主", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
+                "湖北省黄石市", //这个人的详细地址
+                "黄石", //这个人在的城市
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
                 new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
                 new BirthDay(2020,7,8,true,true),
