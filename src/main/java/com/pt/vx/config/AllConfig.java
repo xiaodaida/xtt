@@ -24,7 +24,7 @@ import java.util.List;
 public class AllConfig {
     public static final String VxAppId = "wxf3cefbd0f8185afd";
     public static final String VxAppSecret = "3aac80ef954e83797e6916a6f81f4076";
-    public static final String WeatherKey = "	6e26b022cdac475fe0360625d7dee60e";
+    public static final String WeatherKey = "6e26b022cdac475fe0360625d7dee60e";
     public static final String WeatherKey_HeFeng = "43e34ffd46f6466780b0d00b74adc32f";
 
     //下列所有填写的  true 为开启， false 为不开启 ，#XXXXXX是颜色16进制HEX码（不知道颜色16进制HEX码可以百度）
@@ -80,7 +80,7 @@ public class AllConfig {
                 "oGLUX6Of3rtjy8oFATCL98D-KfWc", //扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "GihdxqHiT1HFd3oUtt5-UYNImMJCeVbEfCFSDRnAIBY", //要给这个人发送的模板ID
                 "小公主", //咋称呼这个人
-                "湖北省黄石市", //这个人的详细地址
+                "湖北省黄石市黄石港", //这个人的详细地址
                 "黄石", //这个人在的城市
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
                 new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
